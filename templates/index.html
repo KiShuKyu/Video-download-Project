@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+
+    <title>Video Downloader</title>
+    <link href="{{ url_for('static', filename='styles/style.css')}}" rel='stylesheet'>
+    
+</head>
+
+<body>
+    <h2>Youtube and Instagram Reel Downloader</h2>
+    <br>
+    <form action="/download" method="post">
+        <label for="platform">Platform:</label>
+        <select name="platform">
+            <option value="yt">YouTube</option>
+            <option value="insta">Instagram</option>
+        </select><br><br>
+        <label for="link">Video Link:</label><br>
+        <input type="text" name="link" required><br><br>
+        <label for="filename">Output File Name (without .mp4):</label><br>
+        <input type="text" name="filename" required><br><br>
+        <button type="submit">Download</button>
+    </form>
+</body>
+
+</html>
