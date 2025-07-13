@@ -1,4 +1,5 @@
 Video Download Project
+
 YouTube and Instagram Reels Video Downloader
 
 This is my first project, created to help users download videos from YouTube and Instagram Reels.
@@ -11,24 +12,30 @@ Through this project, I learned a lot about Python and its libraries. I also exp
 
 🚀 Future Improvements (Work in Progress)
 
-Home page with Sign Up / Login
+1) Home page with Sign Up / Login:
+
 Users will be able to log in and view/download their previous videos — saved in separate folders.
 
-Improved CSS Design
+2) Improved CSS Design:
+
 Enhance UI with a more polished and responsive style.
 
-Video Quality Selection
+3) Video Quality Selection:
+
 Option to choose video quality, and display the video title above the input link for better clarity.
 
 ⚠️ Known Issues
-Age-restricted Videos:
+
+1) Age-restricted Videos:
+
 Currently, videos with age restrictions may cause errors. These are caught and skipped using except Exception as e.
 
-Low Quality on Long Videos:
+2) Low Quality on Long Videos:
+
 Sometimes, longer videos may download in lower quality than expected.
 
-🛠 Technologies Used
-Python
-Flask
-yt-dlp
+🛠 Technologies Used:
+Python,
+Flask,
+yt-dlp,
 HTML/CSS
