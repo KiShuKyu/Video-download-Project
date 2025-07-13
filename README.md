@@ -10,6 +10,7 @@ Through this project, I learned a lot about Python and its libraries. I also exp
 3) Built using Flask and yt-dlp
 
 🚀 Future Improvements (Work in Progress)
+
 Home page with Sign Up / Login
 Users will be able to log in and view/download their previous videos — saved in separate folders.
 
