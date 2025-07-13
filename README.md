@@ -11,11 +11,13 @@ Through this project, I learned a lot about Python and its libraries. I also exp
 
 🚀 Future Improvements (Work in Progress)
 Home page with Sign Up / Login
-   Users will be able to log in and view/download their previous videos — saved in separate folders.
+Users will be able to log in and view/download their previous videos — saved in separate folders.
+
 Improved CSS Design
-   Enhance UI with a more polished and responsive style.
+Enhance UI with a more polished and responsive style.
+
 Video Quality Selection
-   Option to choose video quality, and display the video title above the input link for better clarity.
+Option to choose video quality, and display the video title above the input link for better clarity.
 
 ⚠️ Known Issues
 Age-restricted Videos:
