@@ -1,0 +1,20 @@
+from flask import Flask, render_template, request
+from waitress import serve
+from rawcode import *
+
+app = Flask(__name__)
+
+
+@app.route('/')
+@app.route('/index')
+def yt():
+    return "Hellow World"
+
+
+@app.route9('/yt')
+def yt():
+    pass
+
+
+if __name__ == "__main__":
+    app.run(app, host="0.0.0.0", port=8000)
